@@ -12,5 +12,7 @@ class Person:
 #2)인스턴스 생성
 p1 = Person()
 p2 = Person()
-print("인스턴스 객수:{0}".format(Person.num_person))
+p3 = Person()
+print("인스턴스 갯수:{0}".format(Person.num_person))
+
 
